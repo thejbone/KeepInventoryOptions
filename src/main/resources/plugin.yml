@@ -1,0 +1,10 @@
+name: KeepInventoryPvE
+version: '${project.version}'
+main: com.chillaxmc.keepinventorypve.KeepInventoryPvE
+api-version: 1.17
+
+commands:
+  tki:
+    description: Toggle KeepInventory
+    usage: /<command>
+    permission: KeepInvPvE.tki
